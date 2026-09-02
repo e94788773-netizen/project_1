@@ -1,5 +1,4 @@
 import requests
-import pytest
 import sqlite3
 def test_get_post():
     responce = requests.get("https://jsonplaceholder.typicode.com/posts/1")
